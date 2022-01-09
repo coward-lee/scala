@@ -1,5 +1,5 @@
 package org.lee.part1recap
 
-object GenerakRecap {
+object GeneralRecap extends App {
 
 }

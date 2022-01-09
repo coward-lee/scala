@@ -1,4 +1,4 @@
-package org.lee;
+package org.lee.future;
 
 import com.google.common.util.concurrent.ListenableFuture;
 

@@ -1,8 +1,7 @@
-package org.lee.akka;
+package org.lee.akka.basic;
 
 import akka.actor.*;
 import akka.japi.Function;
-import scala.Option;
 import scala.concurrent.duration.Duration;
 
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package org.lee;
+package org.lee.future;
 
 import akka.actor.Actor;
 import akka.actor.Props;

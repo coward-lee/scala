@@ -1,6 +1,5 @@
-package org.lee.akka;
+package org.lee.akka.basic;
 
-import akka.actor.AbstractActor;
 import akka.actor.ActorRef;
 import akka.actor.UntypedAbstractActor;
 

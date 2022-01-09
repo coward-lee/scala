@@ -4,9 +4,9 @@ object TypeDemo {
   def main(args: Array[String]): Unit = {
     // 1.协变和逆变
     val child: Parent = new Child
-    // 协变
-    //    val children: MyCollection[Parent] = new MyCollection[Child]
-    //    class MyCollection[+T]{}
+//     协变
+        class MyCollection01[+T]{}
+        val children: MyCollection01[Parent] = new MyCollection01[Child]
     // 逆变
     //    val children: MyCollection[SubChild] = new MyCollection[Child]
     //    class MyCollection[-T]{}

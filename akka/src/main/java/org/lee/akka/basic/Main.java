@@ -1,10 +1,9 @@
-package org.lee.akka;
+package org.lee.akka.basic;
 
 import akka.actor.*;
 import akka.dispatch.OnComplete;
 import akka.pattern.Patterns;
 import akka.util.Timeout;
-import scala.Function1;
 import scala.concurrent.Future;
 import scala.concurrent.duration.Duration;
 

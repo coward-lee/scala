@@ -1,5 +1,9 @@
 package org.lee
 
-object Playground {
+import akka.actor.ActorSystem
 
+object Playground extends App {
+  println("???")
+  val actor = ActorSystem("aaa")
+  println(actor.name)
 }

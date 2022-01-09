@@ -1,4 +1,4 @@
-package org.lee.akka;
+package org.lee.akka.basic;
 
 import akka.actor.ActorRef;
 import akka.actor.Props;
@@ -6,7 +6,7 @@ import akka.actor.Terminated;
 import akka.actor.UntypedAbstractActor;
 import akka.event.Logging;
 import akka.event.LoggingAdapter;
-import scala.Option;
+
 //  停掉一个actor 对应的子级actor的反应
 public class WatchActor extends UntypedAbstractActor {
     LoggingAdapter log = Logging.getLogger(this.getContext().system(), this);

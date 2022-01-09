@@ -1,4 +1,4 @@
-package org.lee.akka;
+package org.lee.akka.basic;
 
 import akka.actor.AbstractActor;
 import akka.actor.Props;
